@@ -1,0 +1,18 @@
+$TTL 3600
+@ 	IN 	SOA 	ns1.aranetco.ir. 	admin.aranetco.ir. (
+    		2024032901 ; Serial
+    		3600       ; Refresh
+    		1800       ; Retry
+    		604800     ; Expire
+    		86400      ; Minimum TTL
+		)
+@ 	IN	NS 	ns1.aranetco.ir.
+@ 	IN	NS 	ns2.aranetco.ir.
+@	IN	A	192.168.1.100
+@	IN	A	192.168.1.101
+www 	IN 	A 	192.168.1.100
+ns1 	IN 	A 	192.168.1.100
+ns2 	IN 	A 	192.168.1.101
+mail	IN	A	192.168.1.100
+webmail	IN	CNAME	mail
+shop	IN	A	192.168.1.100

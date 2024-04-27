@@ -1,0 +1,14 @@
+acl "trusted" {
+    192.168.1.0/24;
+};
+
+options {
+    directory "/var/cache/bind";
+    allow-transfer { none; };
+    allow-query { trusted; };
+    listen-on port 53 { localhost; 192.168.1.101; };
+    recursion yes;
+    dnssec-validation auto;
+    listen-on-v6 { any; };
+};
+

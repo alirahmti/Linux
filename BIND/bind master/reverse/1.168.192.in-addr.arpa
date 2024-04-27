@@ -1,0 +1,14 @@
+; Reverse zone file for 1.168.192.in-addr.arpa
+;
+$TTL 3600
+@ 	IN 	SOA 	ns1.aranetco.ir. 	admin.aranetco.ir. (
+		2023062102 ; Serial
+		3600 ; Refresh
+		1800 ; Retry
+		604800 ; Expire
+		86400 ; Minimum TTL
+		)
+@ 	IN 	NS 	ns1.aranetco.ir.
+; PTR Record
+100 	IN 	PTR 	ns1.aranetco.ir.
+170 	IN 	PTR 	ns.aranetco.ir.

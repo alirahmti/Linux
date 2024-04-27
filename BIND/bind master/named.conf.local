@@ -1,0 +1,16 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+zone "aranetco.ir" {
+    type master;
+    also-notify { 192.168.1.101;  }; # DNS Slave Server IPAddress
+    file "/etc/bind/zones/aranetco.ir.deb";
+};
+zone "1.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/reverse/1.168.192.in-addr.arpa";
+};

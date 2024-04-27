@@ -1,0 +1,22 @@
+acl "trusted" {
+    192.168.1.100; # ns1
+    192.168.1.101; # ns2
+    127.0.0.1;  
+    192.168.1.0/24;
+};
+
+options {
+    directory "/var/cache/bind";
+    recursion yes;          # Enables recursive queries
+    allow-recursion { trusted; };
+    allow-query { trusted; };
+    listen-on { 127.0.0.1; 192.168.1.100; }; # ns1 private IP address - listen on private network only
+    allow-transfer { 192.168.1.101; }; # Disable zone transfers by default
+    forwarders {
+        8.8.8.8;
+        8.8.4.4;
+    };
+    dnssec-validation no;
+    listen-on-v6 { any; };
+};
+
