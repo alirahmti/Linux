@@ -1,4 +1,4 @@
-# Configuring Static IPv4 Address on Ubuntu 22.04 Server with CLI 🛠️
+# Configuring Static IPv4 Address on Ubuntu 20.04 Server with CLI 🛠️
 
 📝 Ubuntu uses the Netplan as a network manager that is responsible for configuring the network interfaces. Follow the below steps.
 
