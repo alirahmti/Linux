@@ -36,7 +36,6 @@ Linux is a powerful operating system used in a variety of environments, from ser
    git clone https://github.com/alirahmti/linux.git
    cd linux
 
-
 ## Author
 
 Created by [Ali Rahmati](https://github.com/alirahmti). If you find this repository helpful, feel free to fork it or contribute!
