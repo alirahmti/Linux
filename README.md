@@ -58,9 +58,6 @@ Linux is a powerful operating system used in a variety of environments, from ser
    - Includes the MIT license and an author section with a link to your GitHub for visibility.
 
 ---
-
-Feel free to modify this to better reflect the contents of your repository or let me know if there’s anything else you’d like to add! 😊
----
 ## Author
 
 Created by [Ali Rahmati](https://github.com/alirahmti). If you find this repository helpful, feel free to fork it or contribute!
