@@ -78,9 +78,3 @@ This repository is licensed under the **MIT License**. See the LICENSE file for 
 > #### Crafted with care and ❤️ by [Ali Rahmati](https://github.com/alirahmti). 👨‍💻
 > If this repo saved you time or solved a problem, a ⭐ means everything in the DevOps world. 🧠💾
 > Your star ⭐ is like a high five from the terminal — thanks for the support! 🙌🐧
-
-
-
-### 🔄 Frequently Updated
-
-This repository is continuously updated with new configurations, fixes, and improvements. Stay tuned for more!
